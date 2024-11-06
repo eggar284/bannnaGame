@@ -82,13 +82,13 @@ def juego():
     white = (255, 255, 255)
     black = (0, 0, 0)
 
-    background_image = pygame.image.load(r"C:\Users\emgap\Downloads\Leonardo_Kino_XL_Generate_a_background_for_a_2D_game_that_has_3.jpg")
+    background_image = pygame.image.load(r"Lugar donde guardaste la imagen de fondo la de nombre : Leonardo_Kino_XL_Generate_a_background_for_a_2D_game_that_has_3.jpg sustituye con la ubicación del archivo que se debe de ver alggo así : C:\Users\emgap\Downloads\Leonardo_Kino_XL_Generate_a_background_for_a_2D_game_that_has_3.jpg ")
     background_image = pygame.transform.scale(background_image, (360, 640))
 
     left_limit = -140
     right_limit = 360 - 100
 
-    monito_image = pygame.image.load(r"C:\TEC\matemáticas juego\chango_1_preview_rev_1.png")
+    monito_image = pygame.image.load(r"Lugar donde guardaste la imagen : chango_1_preview_rev_1.png se debe de ver algo así : C:\TEC\matemáticas juego\chango_1_preview_rev_1.png")
     monito_image = pygame.transform.scale(monito_image, (200, 200))
     monito_x = 360 // 2 - 25
     monito_y = 640 - 180
@@ -97,7 +97,7 @@ def juego():
     fall_speed = 0.09
     spawn_timer = 0
     spawn_delay = 1500
-    object_image = pygame.image.load(r"C:\TEC\matemáticas juego\bananas__preview_rev_1.png")
+    object_image = pygame.image.load(r"Lugar donde guardaste la imagen : bananas__preview_rev_1.png se debe de ver algo así : C:\TEC\matemáticas juego\bananas__preview_rev_1.png")
     object_image = pygame.transform.scale(object_image, (80, 80))
 
     falling_objects = []
