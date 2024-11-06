@@ -8,18 +8,22 @@ En este juego educativo, el objetivo es ayudar al mono a resolver ecuaciones cua
 Para ejecutar el juego, asegúrate de tener instalados los módulos pygame, sympy, y matplotlib :
 ```bash
 pip install pygame sympy matplotlib
+```
+```bash
 python nombre_del_archivo.py
 ```
 
 # Funcionamiento del Juego
-Generación de Ecuación: En cada ronda, se crea una ecuación cuadrática aleatoria usando la biblioteca `sympy`. Se genera una imagen de la ecuación para mostrarla en pantalla.
+`Generación de Ecuación`: En cada ronda, se crea una ecuación cuadrática aleatoria usando la biblioteca `sympy`. Se genera una imagen de la ecuación para mostrarla en pantalla.
 
 Imagen: ecuacion.png (Imagen de la ecuación generada).
-Soluciones Correctas y Falsas: Se calculan las soluciones reales de la ecuación. A continuación, se crean números falsos que no sean soluciones para aumentar el nivel de dificultad.
+
+`Soluciones Correctas y Falsas`: Se calculan las soluciones reales de la ecuación. A continuación, se crean números falsos que no sean soluciones para aumentar el nivel de dificultad.
 
 Imagen: solucion_X.png (Banana con la solución correcta).
 Imagen: falso_X.png (Banana con un número incorrecto).
-Interacción con el Jugador: El mono puede moverse hacia la izquierda y derecha para atrapar las bananas. Si atrapa una banana con la solución correcta, gana un punto y se genera una nueva ecuación. Si atrapa un número falso o se pierde una solución válida, el juego termina.
+
+`Interacción con el Jugador`: El mono puede moverse hacia la izquierda y derecha para atrapar las bananas. Si atrapa una banana con la solución correcta, gana un punto y se genera una nueva ecuación. Si atrapa un número falso o se pierde una solución válida, el juego termina.
 
 Imagen: monito_atrapando_banana_correcta.png (El mono atrapa una banana con la solución correcta).
 Imagen: monito_perdiendo.png (El jugador pierde por atrapar una banana incorrecta o dejar caer una correcta).
@@ -37,7 +41,7 @@ Imagen: monito_perdiendo.png (El jugador pierde por atrapar una banana incorrect
 `actualizar_imagenes(soluciones, falsos)`: Actualiza la lista de imágenes de las bananas (soluciones y números falsos) para la ronda actual.
 
 
-`juego())`: Ejecuta el bucle principal del juego, gestiona los movimientos del mono, genera nuevas bananas, y verifica las colisiones con el mono.
+`juego()`: Ejecuta el bucle principal del juego, gestiona los movimientos del mono, genera nuevas bananas, y verifica las colisiones con el mono.
 
 # Control del Juego
 
@@ -49,10 +53,10 @@ Evita las bananas con números incorrectos para no perder.
 
 
 Imágenes y Ejemplos
-Pantalla Inicial con Ecuación: En esta pantalla, se muestra la ecuación actual que el jugador debe resolver.
+`Pantalla Inicial con Ecuación`: En esta pantalla, se muestra la ecuación actual que el jugador debe resolver.
 
 Imagen de ejemplo: ecuacion_mostrada.png
-Banana Correcta: Esta imagen muestra la banana con la solución correcta. Al atraparla, el jugador gana un punto.
+`Banana Correcta`: Esta imagen muestra la banana con la solución correcta. Al atraparla, el jugador gana un punto.
 
 Imagen de ejemplo: banana_correcta.png
 Banana Falsa: La imagen de esta banana contiene un número incorrecto. Atrapar esta banana hace que el jugador pierda.
