@@ -16,12 +16,13 @@ python nombre_del_archivo.py
 # Funcionamiento del Juego
 `Generación de Ecuación`: En cada ronda, se crea una ecuación cuadrática aleatoria usando la biblioteca `sympy`. Se genera una imagen de la ecuación para mostrarla en pantalla.
 
-Imagen: ecuacion.png (Imagen de la ecuación generada).  ![Image Alt](https://github.com/eggar284/bannnaGame/blob/main/ecuacion.png?raw=true)
+Ecuación :  ![Image Alt](https://github.com/eggar284/bannnaGame/blob/main/ecuacion.png?raw=true)
 
 `Soluciones Correctas y Falsas`: Se calculan las soluciones reales de la ecuación. A continuación, se crean números falsos que no sean soluciones para aumentar el nivel de dificultad.
 
-Imagen: solucion_X.png (Banana con la solución correcta). ![Image Alt](https://github.com/eggar284/bannnaGame/blob/main/solucion_1.png?raw=true) 
-Imagen: falso_X.png (Banana con un número incorrecto). ![Image Alt](https://github.com/eggar284/bannnaGame/blob/main/falso_1.png?raw=true)
+Banana con la solución correcta : ![Image Alt](https://github.com/eggar284/bannnaGame/blob/main/solucion_1.png?raw=true) 
+
+Banana con un número incorrecto : ![Image Alt](https://github.com/eggar284/bannnaGame/blob/main/falso_1.png?raw=true)
 
 `Interacción con el Jugador`: El mono puede moverse hacia la izquierda y derecha para atrapar las bananas. Si atrapa una banana con la solución correcta, gana un punto y se genera una nueva ecuación. Si atrapa un número falso o se pierde una solución válida, el juego termina.
 
