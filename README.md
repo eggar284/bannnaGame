@@ -16,7 +16,7 @@ python nombre_del_archivo.py
 # Funcionamiento del Juego
 `Generación de Ecuación`: En cada ronda, se crea una ecuación cuadrática aleatoria usando la biblioteca `sympy`. Se genera una imagen de la ecuación para mostrarla en pantalla.
 
-Imagen: ecuacion.png (Imagen de la ecuación generada).  ![Image Alt](image_url)
+Imagen: ecuacion.png (Imagen de la ecuación generada).  ![Image Alt](https://github.com/eggar284/bannnaGame/blob/main/ecuacion.png?raw=true)
 
 `Soluciones Correctas y Falsas`: Se calculan las soluciones reales de la ecuación. A continuación, se crean números falsos que no sean soluciones para aumentar el nivel de dificultad.
 
