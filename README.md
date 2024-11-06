@@ -1,5 +1,5 @@
 # 🐵 Juego de Chango y Bananas Matemáticas 🍌
-Este es un juego de matemáticas interactivo, donde un mono debe atrapar bananas que contienen soluciones correctas a ecuaciones cuadráticas. Las bananas caen desde la parte superior de la pantalla y el jugador debe mover el mono para recoger las soluciones correctas, ¡evitando los números falsos!
+Este es un juego de matemáticas interactivo, donde un mono debe atrapar bananas que contienen soluciones correctas a ecuaciones cuadráticas. Las bananas caen desde la parte superior de la pantalla y el jugador debe mover el mono para recoger las soluciones correctas, ¡evitando los números falsos!   ![Image Alt](image_url)
 
 # 📝 Descripción del Juego
 En este juego educativo, el objetivo es ayudar al mono a resolver ecuaciones cuadráticas capturando bananas con soluciones correctas. Cada ronda, se genera una ecuación aleatoria y dos soluciones, una de las cuales es falsa para aumentar el reto. El jugador debe moverse con las teclas de dirección para capturar la banana correcta, obteniendo un punto por cada acierto. 
@@ -16,7 +16,7 @@ python nombre_del_archivo.py
 # Funcionamiento del Juego
 `Generación de Ecuación`: En cada ronda, se crea una ecuación cuadrática aleatoria usando la biblioteca `sympy`. Se genera una imagen de la ecuación para mostrarla en pantalla.
 
-Imagen: ecuacion.png (Imagen de la ecuación generada).
+Imagen: ecuacion.png (Imagen de la ecuación generada).  ![Image Alt](image_url)
 
 `Soluciones Correctas y Falsas`: Se calculan las soluciones reales de la ecuación. A continuación, se crean números falsos que no sean soluciones para aumentar el nivel de dificultad.
 
