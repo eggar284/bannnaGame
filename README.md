@@ -51,4 +51,6 @@ Atrapa las bananas con la solución correcta para ganar puntos.
 
 Evita las bananas con números incorrectos para no perder.
 
+Aquí encontraras el video de como funciona :
+
 [![Ver video tutorial](https://img.youtube.com/vi/pRwpA6zr4Kk/0.jpg)](https://youtu.be/pRwpA6zr4Kk)
