@@ -12,7 +12,7 @@ python nombre_del_archivo.py
 ```
 
 # Funcionamiento del Juego
-Generación de Ecuación: En cada ronda, se crea una ecuación cuadrática aleatoria usando la biblioteca `**sympy**`. Se genera una imagen de la ecuación para mostrarla en pantalla.
+Generación de Ecuación: En cada ronda, se crea una ecuación cuadrática aleatoria usando la biblioteca `sympy`. Se genera una imagen de la ecuación para mostrarla en pantalla.
 
 Imagen: ecuacion.png (Imagen de la ecuación generada).
 Soluciones Correctas y Falsas: Se calculan las soluciones reales de la ecuación. A continuación, se crean números falsos que no sean soluciones para aumentar el nivel de dificultad.
@@ -26,23 +26,28 @@ Imagen: monito_perdiendo.png (El jugador pierde por atrapar una banana incorrect
 
 # Estructura del Código
 
-`**limpiar_imagenes()**`: Elimina imágenes de soluciones anteriores al inicio del juego para evitar conflictos.
+`limpiar_imagenes()`: Elimina imágenes de soluciones anteriores al inicio del juego para evitar conflictos.
 
-`**generar_imagen_ecuacion(ecuacion)**`: Genera una imagen de la ecuación actual usando matplotlib.
+`generar_imagen_ecuacion(ecuacion)`: Genera una imagen de la ecuación actual usando matplotlib.
 
-`**resolver_ecuacion()**`: Calcula las soluciones de la ecuación generada y almacena las soluciones correctas.
+`resolver_ecuacion()`: Calcula las soluciones de la ecuación generada y almacena las soluciones correctas.
 
-`**generar_imagen_solucion(solucion, filename)**`: Genera una imagen de la solución específica que será usada como banana en el juego.
+`generar_imagen_solucion(solucion, filename)`: Genera una imagen de la solución específica que será usada como banana en el juego.
 
-`**actualizar_imagenes(soluciones, falsos)**`: Actualiza la lista de imágenes de las bananas (soluciones y números falsos) para la ronda actual.
+`actualizar_imagenes(soluciones, falsos)`: Actualiza la lista de imágenes de las bananas (soluciones y números falsos) para la ronda actual.
 
 
-`**juego())**`: Ejecuta el bucle principal del juego, gestiona los movimientos del mono, genera nuevas bananas, y verifica las colisiones con el mono.
+`juego())`: Ejecuta el bucle principal del juego, gestiona los movimientos del mono, genera nuevas bananas, y verifica las colisiones con el mono.
 
 # Control del Juego
+
 Usa las teclas de dirección Izquierda y Derecha para mover el mono.
+
 Atrapa las bananas con la solución correcta para ganar puntos.
+
 Evita las bananas con números incorrectos para no perder.
+
+
 Imágenes y Ejemplos
 Pantalla Inicial con Ecuación: En esta pantalla, se muestra la ecuación actual que el jugador debe resolver.
 
