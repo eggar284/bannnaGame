@@ -26,8 +26,7 @@ Banana con un número incorrecto : ![Image Alt](https://github.com/eggar284/bann
 
 `Interacción con el Jugador`: El mono puede moverse hacia la izquierda y derecha para atrapar las bananas. Si atrapa una banana con la solución correcta, gana un punto y se genera una nueva ecuación. Si atrapa un número falso o se pierde una solución válida, el juego termina.
 
-Imagen: monito_atrapando_banana_correcta.png (El mono atrapa una banana con la solución correcta).
-Imagen: monito_perdiendo.png (El jugador pierde por atrapar una banana incorrecta o dejar caer una correcta).
+![Image Alt](https://github.com/eggar284/bannnaGame/blob/main/LOst_game.png?raw=true)
 
 # Estructura del Código
 
@@ -52,20 +51,3 @@ Atrapa las bananas con la solución correcta para ganar puntos.
 
 Evita las bananas con números incorrectos para no perder.
 
-
-Imágenes y Ejemplos
-`Pantalla Inicial con Ecuación`: En esta pantalla, se muestra la ecuación actual que el jugador debe resolver.
-
-Imagen de ejemplo: ecuacion_mostrada.png
-`Banana Correcta`: Esta imagen muestra la banana con la solución correcta. Al atraparla, el jugador gana un punto.
-
-Imagen de ejemplo: banana_correcta.png
-Banana Falsa: La imagen de esta banana contiene un número incorrecto. Atrapar esta banana hace que el jugador pierda.
-
-Imagen de ejemplo: banana_falsa.png
-Puntos Acumulados: En la parte superior de la pantalla, se muestra el puntaje acumulado del jugador. El jugador debe intentar obtener la mayor cantidad de puntos posible.
-
-Imagen de ejemplo: puntaje_acumulado.png
-Mono Moviéndose: Esta imagen muestra al mono moviéndose hacia la izquierda y derecha para atrapar bananas.
-
-Imagen de ejemplo: mono_movimiento.png
